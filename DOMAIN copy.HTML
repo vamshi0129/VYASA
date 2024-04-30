@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domains  and Sub Domains</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <iframe src="background.html" frameborder="0" style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: -1;"></iframe>
+    <nav class="navbar" id="NAV" style="display: block;">
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a href="#" class="nav-link">
+              <span class="link-text logo-text">VYASA</span>
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+                <g class="fa-group">
+                  <path fill="currentColor"
+                    d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                    class="fa-secondary"></path>
+                  <path fill="currentColor"
+                    d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                    class="fa-primary"></path>
+                </g>
+              </svg>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="login" role="img"
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-fill-lock" viewBox="0 0 16 16">
+                <path
+                  d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5v-1a1.9 1.9 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4m7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1" />
+              </svg>
+              <span class="link-text">Login</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="about us" role="img"
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8 1.5A6.5 6.5 0 1 1 1.5 8 6.508 6.508 0 0 1 8 1.5zm0 1A5.5 5.5 0 1 0 13.5 8 5.506 5.506 0 0 0 8 2.5zm-.348 3.516a.5.5 0 1 1 .696-.718c1.466 1.6.72 4.066-1.15 5.106a4.02 4.02 0 0 1-2.17.488.5.5 0 0 1-.132-.992c.694-.134 1.463-.48 2.153-1.01zm1.586-.824a1 1 0 1 1-1.415-1.415 1 1 0 0 1 1.415 1.415z" />
+              </svg>
+              <span class="link-text">About Us</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="contact" role="img"
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                  d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm1.596.427L8 8.465l6.404-5.038A1 1 0 0 1 15 4H1a1 1 0 0 1 .596-.573z" />
+              </svg>
+              <span class="link-text">Contact</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="logout" role="img"
+                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                <path
+                  d="M10.146 9.354a.5.5 0 0 1 0 .707L12.793 12H2.5a.5.5 0 0 1 0-1h10.293L10.146 9.354zM7 8.5a.5.5 0 0 1 .5-.5h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7a.5.5 0 0 1 0-1h7a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H7a.5.5 0 0 1-.5-.5z" />
+                <path
+                  d="M4 1.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 1.5zM3.354 6.354a.5.5 0 0 1 0-.707L1.707 4H12.5a.5.5 0 0 1 0 1H1.707l1.647 1.646a.5.5 0 0 1 0 .708z" />
+              </svg>
+              <span class="link-text">Logout</span>
+            </a>
+          </li>
+    
+        </ul>
+      </nav>   
+    <hr class="featurette-divider">
+    <div class = "container">
+    <div  id="Domains" class="row" style="display: block;">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="./AIMLC.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+            <defs>
+              <clipPath id="circleClip">
+                <circle cx="70" cy="70" r="70" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h2 class="fw-normal">AIML</h2>
+          <p>AIML, an XML-based language, constructs rule-based chatbots by pairing user input patterns with predefined responses, forming the backbone of many early conversational agents.</p>
+
+          
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sub Domain Options
+            </button>
+
+            <ul class="dropdown-menu" aria-labelledby="aimlDropdown">
+                <li><button id="healthCareBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+                <li><button id="legalBtn" class="dropdown-item btn" type="button">Legal</button></li>
+                <li><button id="vrArBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+                <li><button id="educationBtn" class="dropdown-item btn" type="button">Education</button></li>
+                <li><button id="logisticsBtn" class="dropdown-item btn" type="button">Logistics</button></li>
+                <li><button id="animationBtn" class="dropdown-item btn" type="button">Animation</button></li>
+            </ul>
+        </div>
+    
+  
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="./WEBTECH.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+            <defs>
+              <clipPath id="circleClip">
+                <circle cx="70" cy="70" r="70" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h2 class="fw-normal">WEB TECH</h2>
+          <p>Web tech: HTML, CSS, JavaScript form websites; frameworks, databases support protocols enable internet content creation, interaction,security measures,shape the structure and design.</p>
+          <div class="dropdown"> 
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sub Domain Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="webDropdown">
+              <li><button id="healthCareWTBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+              <li><button id="legalWTBtn" class="dropdown-item btn" type="button">Legal</button></li>
+              <li><button id="vrArWTBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+              <li><button id="educationWTBtn" class="dropdown-item btn" type="button">Education</button></li>
+              <li><button id="logisticsWTBtn" class="dropdown-item btn" type="button">Logistics</button></li>
+              <li><button id="animationWTBtn" class="dropdown-item btn" type="button">Animation</button></li>
+          </ul>
+            
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="position">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="./DEEP LEARNING.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+            <defs>
+              <clipPath id="circleClip">
+                <circle cx="70" cy="70" r="70" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h2 class="fw-normal">DEEP LEARNING</h2>
+          <div class="paragraph">
+          <p>Deep learning: Neural networks mimic human learning, analyzing vast data for pattern recognition, powering AI tasks like image/speech understanding.</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sub Domain Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="DLDropdown">
+                <li><button id="healthCareDLBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+                <li><button id="legalDLBtn" class="dropdown-item btn" type="button">Legal</button></li>
+                <li><button id="vrArDLBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+                
+            </ul>
+
+      </div>   
+    </div> 
+        </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="./BLOCKCHAIN.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+            <defs>
+              <clipPath id="circleClip">
+                <circle cx="70" cy="70" r="70" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h2 class="fw-normal">BLOCK CHAIN</h2>
+          <p>Blockchain involves creating decentralized, secure systems using cryptographic principles to manage, validate data across a network of computers, ensuring transparency and trust in transactions.</p>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sub Domain Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="BCDropdown">
+                <li><button id="healthCareBCBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+                <li><button id="legalBCBtn" class="dropdown-item btn" type="button">Legal</button></li>
+                <li><button id="vrArBCBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+                <li><button id="educationBCBtn" class="dropdown-item btn" type="button">Education</button></li>
+                <li><button id="logisticsBCBtn" class="dropdown-item btn" type="button">Logistics</button></li>
+                <li><button id="animationBCBtn" class="dropdown-item btn" type="button">Animation</button></li>
+            </ul>
+        
+        </div>
+        
+    
+        <div class="col-lg-4">
+          <div class="position">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <image href="./CYBER SECURITY.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+            <defs>
+              <clipPath id="circleClip">
+                <circle cx="70" cy="70" r="70" />
+              </clipPath>
+            </defs>
+          </svg>
+          <h2 class="fw-normal">CYBER SECURITY</h2>
+          <div class="paragraph">
+          <p>Cybersecurity safeguards digital systems from unauthorized access, attacks,and measures to protect data, devices from potential threats and breaches.</p>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sub Domain Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="CSDropdown">
+                <li><button id="healthCareCSBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+                <li><button id="legalCSBtn" class="dropdown-item btn" type="button">Legal</button></li>
+                <li><button id="vrArCSBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+                <li><button id="educationCSBtn" class="dropdown-item btn" type="button">Education</button></li>
+                <li><button id="logisticsCSBtn" class="dropdown-item btn" type="button">Logistics</button></li>
+                <li><button id="animationCSBtn" class="dropdown-item btn" type="button">AutomativeTech</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class ="adjust">
+          <div class="text-center content-padding">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <image href="./IOT.jpg" width="100%" height="100%" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice" />
+              <defs>
+                <clipPath id="circleClip">
+                  <circle cx="70" cy="70" r="70" />
+                </clipPath>
+              </defs>
+            </svg>
+            <h2 class="fw-normal">IOT</h2>
+            <h2 class="fw-normal">(Internet of Things)</h2>
+            <div class="line">
+            <div class="paragraph">  
+            <p> IoT (Internet of Things) it connects devices to the internet,enabling data sharing,automation.It interlinks everyday objects,facilitating remote control.</p>
+            </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="aimlDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sub Domain Options
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="IOTDropdown">
+                <li><button id="healthCareIOTBtn" class="dropdown-item btn" type="button">Health Care</button></li>
+                <li><button id="vrArIOTBtn" class="dropdown-item btn" type="button">VR/AR</button></li>
+                <li><button id="educationIOTBtn" class="dropdown-item btn" type="button">Education</button></li>
+                <li><button id="logisticsIOTBtn" class="dropdown-item btn" type="button">Logistics</button></li>
+                <li><button id="sportsIOTBtn" class="dropdown-item btn" type="button">Sports</button></li>
+                <li><button id="autotechIOTBtn" class="dropdown-item btn" type="button">Automative Tech</button></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+
+        
+
+  <script src="project.js"></script>
+</body>
+</html>
